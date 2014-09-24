@@ -1,0 +1,12 @@
+<!------------------------------------------------------ 
+Ver un monstruo <br>
+/app/views/monstruos/show.html.erb
+------------------------------------------------------->
+<!DOCTYPE html> 
+<html> 
+	<% monstruo = Monstruo.find(1) %> 
+	<head> <title> <%= monstruo.nombre %> </title> </head> 
+<body> 	
+	<p> <%= monstruo.descripcion %> </p>
+</body> 
+</html>
