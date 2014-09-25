@@ -5,20 +5,16 @@
 #   gem 'sqlite3'
 #
 default: &default
-<<<<<<< HEAD
   adapter: postgresql
-=======
-  adapter: sqlite3
->>>>>>> 248d7910425bec9f7d65cab7c8739e7d0262c141
   pool: 5
   timeout: 5000
 
 development:
   <<: *default
 <<<<<<< HEAD
-  database: db/development_pq
+  database: my_development_pq
 =======
-  database: db/development.sqlite3
+  database: db/development_pq
 >>>>>>> 248d7910425bec9f7d65cab7c8739e7d0262c141
 
 # Warning: The database defined as "test" will be erased and
@@ -27,15 +23,15 @@ development:
 test:
   <<: *default
 <<<<<<< HEAD
+  database: my_test_pq
+
+production:
+  <<: *default
+  database: my_production_pq
+=======
   database: db/test_pq
 
 production:
   <<: *default
   database: db/production_pq
-=======
-  database: db/test.sqlite3
-
-production:
-  <<: *default
-  database: db/production.sqlite3
 >>>>>>> 248d7910425bec9f7d65cab7c8739e7d0262c141
