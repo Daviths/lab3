@@ -1,0 +1,19 @@
+<head> <title> <%= monstruo.nombre %> </title> </head> 
+<div class="row">
+  <div class="col-md-12"> <h1> Bienvenido a Critter </h1> </div>
+  <div class="col-md-12"> <h3> ¿Qué desea hacer? </h3> </div>
+</div>
+
+<div class="row">
+  <div class="col-md-6">Acerca de</div>
+  <div class="col-md-6">
+     <ul>
+       <li> <%= link_to "Listado de Monstruos", monstruos_path %></li>
+       <li> <%= link_to "Ver el primer monstruo", ver_monstruos_path %></li>
+     </ul>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12"> Contacto </div>
+</div>

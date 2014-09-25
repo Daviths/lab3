@@ -1,0 +1,31 @@
+<!------------------------------------------------------ 
+Acá va a ir el listado de monstruos usando los tags  
+<ul> y <li>.
+Debe tener un título y mostrar el nombre (en negrita) y
+la descripción.
+HACER <br>
+/app/views/monstruos/index.html.erb
+------------------------------------------------------>
+<!DOCTYPE html> 
+<html> 
+ <head> <title> Listado de Monstruos </title> </head> 
+
+<body> 
+<ul>
+	<% Monstruo.all.order("nombre").each do |monstruo| %>
+	<li> 
+
+	<span> <%= link_to monstruo.nombre, monstruo %> </span>
+	<% if monstruo.tweets.count > 1 %> 
+	<star> CritterStar! </star>
+	<% end %>
+	<div> 
+	<button class="btn btn-danger" type="button"> <%= link_to "Eliminar", monstruo,method: :delete %> </button>
+	<span> <%= monstruo.descripcion %> </span> 
+	</div> 
+			
+	</li>
+	<% end %>	
+</ul>
+</body> 
+</html>
