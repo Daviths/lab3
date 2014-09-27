@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-#V12 push as su? 
+#V13 using export GIT_COMMITER_EMAIL 
 #name works, mail not really
 #SSH Works, but email not yet.
 #
