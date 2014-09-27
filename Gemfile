@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-#V8 name test
+#V9 name works, mail not really
 #SSH Works, but email not yet.
 #
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
