@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-#V10 email in path GIT_COMMITTER_EMAIL 
+#V11 Manual force of email 
 #name works, mail not really
 #SSH Works, but email not yet.
 #
