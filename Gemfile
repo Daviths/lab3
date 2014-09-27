@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-#V9 name works, mail not really
+#V10 email in path GIT_COMMITTER_EMAIL 
+#name works, mail not really
 #SSH Works, but email not yet.
 #
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
