@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-#V14 Final version, removed AUTHOR 
+#V15 Real Final version, removed AUTHOR 
 #name works, mail not really
 #SSH Works, but email not yet.
 #
