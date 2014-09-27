@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-#V11 config committer.email 
+#V12 push as su? 
 #name works, mail not really
 #SSH Works, but email not yet.
 #
