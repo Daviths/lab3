@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
-#Version 7, SSH Works, but email not yet.
+#V8 name test
+#SSH Works, but email not yet.
+#
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.2'
 # Use sqlite3 as the database for Active Record
