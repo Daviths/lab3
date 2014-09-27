@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-#V11 Manual force of email 
+#V11 config committer.email 
 #name works, mail not really
 #SSH Works, but email not yet.
 #
