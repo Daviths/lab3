@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-#V13 using export GIT_COMMITER_EMAIL 
+#V14 Final version, removed AUTHOR 
 #name works, mail not really
 #SSH Works, but email not yet.
 #
