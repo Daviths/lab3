@@ -1,0 +1,112 @@
+.
+├── app
+│   ├── assets
+│   │   ├── images
+│   │   │   └── logo.png
+│   │   ├── javascripts
+│   │   │   ├── application.js
+│   │   │   ├── monstruos.js.coffee
+│   │   │   └── tweets.js.coffee
+│   │   └── stylesheets
+│   │       ├── application.css
+│   │       ├── bootstrap.css
+│   │       ├── custom.css.scss
+│   │       ├── custom.css.scss~
+│   │       └── monstruos.css.scss
+│   ├── controllers
+│   │   ├── application_controller.rb
+│   │   ├── concerns
+│   │   ├── monstruos_controller.rb
+│   │   └── tweets_controller.rb
+│   ├── helpers
+│   │   ├── application_helper.rb
+│   │   ├── monstruos_helper.rb
+│   │   └── tweets_helper.rb
+│   ├── mailers
+│   ├── models
+│   │   ├── concerns
+│   │   ├── monstruo.rb
+│   │   └── tweet.rb
+│   └── views
+│       ├── layouts
+│       │   ├── application.html.erb
+│       │   ├── application.html.erb~
+│       │   └── _header.html.erb
+│       ├── monstruos
+│       │   ├── index.html.erb
+│       │   ├── index.html.erb~
+│       │   ├── show.html.erb
+│       │   ├── show.html.erb~
+│       │   ├── ver.html.erb
+│       │   └── ver.html.erb~
+│       └── tweets
+│           ├── default.html.erb
+│           ├── default.html.erb~
+│           ├── index.html.erb
+│           └── show.html.erb
+├── bin
+│   ├── bundle
+│   ├── rails
+│   ├── rake
+│   └── spring
+├── config
+│   ├── application.rb
+│   ├── boot.rb
+│   ├── database.yml
+│   ├── database.yml~
+│   ├── environment.rb
+│   ├── environments
+│   │   ├── development.rb
+│   │   ├── development.rb~
+│   │   ├── production.rb
+│   │   └── test.rb
+│   ├── initializers
+│   │   ├── assets.rb
+│   │   ├── backtrace_silencers.rb
+│   │   ├── cookies_serializer.rb
+│   │   ├── filter_parameter_logging.rb
+│   │   ├── inflections.rb
+│   │   ├── mime_types.rb
+│   │   ├── session_store.rb
+│   │   └── wrap_parameters.rb
+│   ├── locales
+│   │   └── en.yml
+│   ├── routes.rb
+│   └── secrets.yml
+├── config.ru
+├── db
+│   ├── migrate
+│   │   ├── 20140903215313_create_monstruos.rb
+│   │   ├── 20140903215320_create_tweets.rb
+│   │   └── 20140904131821_add_descripcion_to_monstruo.rb
+│   ├── schema.rb
+│   └── seeds.rb
+├── Gemfile
+├── Gemfile.lock
+├── lib
+│   ├── assets
+│   └── tasks
+├── log
+├── public
+│   ├── 404.html
+│   ├── 422.html
+│   ├── 500.html
+│   ├── assets
+│   │   ├── application-306f1a04b9206fc529d002349955d095.js
+│   │   ├── application-306f1a04b9206fc529d002349955d095.js.gz
+│   │   ├── application-34853a55e1110560571f51b64b9df54a.css
+│   │   ├── application-34853a55e1110560571f51b64b9df54a.css.gz
+│   │   ├── logo-12241f40f99e13e057b414e89642e0d9.png
+│   │   └── manifest-e32c5e1d9419aafcb74aa89697a413de.json
+│   └── robots.txt
+├── Rakefile
+├── README.rdoc
+├── TEST
+│   ├── 1.txt
+│   └── tree.txt
+└── vendor
+    └── assets
+        ├── javascripts
+        └── stylesheets
+
+33 directories, 76 files
